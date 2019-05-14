@@ -65,5 +65,4 @@ public class UsersServletWithDao extends HttpServlet {
         req.setAttribute("usersFromServer", users);
         req.getServletContext().getRequestDispatcher("/jsp/users.jsp").forward(req, resp);
     }
-
 }
